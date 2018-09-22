@@ -58,11 +58,11 @@ export default {
 .el-footer {
   color: #333;
   text-align: center;
-  line-height: 50px;
+  line-height: 100px;
 
   &.el-footer {
     line-height: 35px;
-    background-color: #f2f2f2;
+    background-color: #555555;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -73,6 +73,7 @@ export default {
 
     & > a {
       text-decoration: none;
+			width: 100%;
       color: #666;
     }
   }
@@ -84,7 +85,6 @@ export default {
 
 .el-main {
   position: absolute;
-  top: 50px;
   bottom: 35px;
   width: 100%;
 }
