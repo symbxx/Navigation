@@ -1,4 +1,4 @@
-# front-end-navigation
+navigation
 
 一个前端导航，可附加到谷歌扩展程序。
 
