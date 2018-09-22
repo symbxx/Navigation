@@ -8,6 +8,9 @@ case 'chrome':
 case 'analysis':
 	module.exports = require('./config/analysis.webpack.config');
 	break;
+case 'test':
+	module.exports = require('./config/analysis.webpack.config');
+	break;
 default:
 	module.exports = require('./config/development.webpack.config');
 	break;
